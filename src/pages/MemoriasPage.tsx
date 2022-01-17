@@ -1,9 +1,13 @@
-function MemoriasPage() {
+import Hero from '../components/Hero/Hero'
+import MenuInicio from '../components/MenuInicio/MenuInicio'
+
+const MemoriasPage = () => {
     return (
         <div>
-            memorias
+            <MenuInicio/>
+            <Hero nombre="Memorias"/>
         </div>
     )
 }
 
-export default MemoriasPage;
+export default MemoriasPage

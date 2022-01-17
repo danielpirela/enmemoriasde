@@ -1,9 +1,9 @@
-function SobreNosotrosPage() {
+const SobreNosotrosPage = () => {
     return (
         <div>
-            sobre nosotros   
+            sobre nosotros
         </div>
     )
 }
 
-export default SobreNosotrosPage;
+export default SobreNosotrosPage

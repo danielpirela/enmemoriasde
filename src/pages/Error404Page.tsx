@@ -1,8 +1,9 @@
-function Error404Page() {
+const Error404Page = () => {
     return (
         <div>
-            error 404
+            error
         </div>
     )
 }
-export default Error404Page;
+
+export default Error404Page

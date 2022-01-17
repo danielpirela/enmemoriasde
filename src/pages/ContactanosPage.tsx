@@ -1,9 +1,9 @@
-function contactanosPage() {
-    return (
-        <div>
-          contactanos  
-        </div>
-    )
+const ContactanosPage = () => {
+  return (
+    <div>
+      contactanos
+    </div>
+  )
 }
 
-export default contactanosPage;
+export default ContactanosPage
