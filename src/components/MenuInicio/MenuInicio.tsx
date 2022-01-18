@@ -1,6 +1,6 @@
 import "./MenuInicio.css";
 import InputSearch from "../InputSearch/InputSearch";
-function MenuInicio() {
+const MenuInicio = () =>{
   return (
     <div className="menu-inicio">
       <ul className="nav_list">

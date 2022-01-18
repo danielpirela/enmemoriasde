@@ -1,0 +1,42 @@
+.container_homenaje {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    margin-top: 50px;
+}
+
+.container_homenaje_descripcion {
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    margin: 0 10px;
+}
+.container_homenaje h1{
+    width: 60%;
+    font-family: Montserrat;
+    font-size: 44px;
+    font-weight: 900;
+    color: #000;
+    text-align: start;
+    margin: 0;
+    padding: 0 5px;
+    line-height: .9;
+}
+
+.container_homenaje p{
+    width: 60%;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: regular;
+    color: #000;
+    text-align: start;
+    line-height: 1;
+    padding: 0 5px;
+    margin: 6px 0;
+}
