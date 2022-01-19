@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import MenuInicio from './components/MenuInicio/MenuInicio';
+import BtnVolver from './components/BtnVolver/BtnVolver';
 import InicioPage from './pages/InicioPage'
 import MemoriasPage from './pages/MemoriasPage';
 import SobreNosotrosPage from './pages/SobreNosotrosPage';
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <MenuInicio/>
+      <BtnVolver/>
       <Router>
         <Routes>
           <Route path="/" element={<InicioPage />} />
