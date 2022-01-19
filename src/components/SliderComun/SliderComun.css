@@ -2,13 +2,14 @@
   display: flex;
   width: 50%;
   height: 100vh;
-  
+
   align-items: center;
   justify-content: center;
   margin: 0 10px;
   
   border-radius: 10px;
 }
+
 
 .slider_comun {
   border-radius: 10px;
@@ -65,3 +66,4 @@
   .slick-dots li button::before {
     font-size: 1.2rem;
   }
+

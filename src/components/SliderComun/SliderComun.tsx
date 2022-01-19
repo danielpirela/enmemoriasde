@@ -1,17 +1,31 @@
 import "../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
+import React, { useState } from "react";
 import Slider from "react-slick";
 import "./SliderComun.css";
 
 const SliderComun = () => {
-  const settings = {
+ 
+  var settings = {
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
-    autoplay: true,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      }
+    ]
   };
+
 
   return (
     <div className="container_slider_comun">
@@ -37,6 +51,6 @@ const SliderComun = () => {
       </Slider>
     </div>
   );
-};
+}
 
 export default SliderComun;
