@@ -14,7 +14,6 @@ function App() {
   return (
     <div className="App">
       <MenuInicio/>
-      <BtnVolver/>
       <Router>
         <Routes>
           <Route path="/" element={<InicioPage />} />
@@ -25,6 +24,7 @@ function App() {
           <Route path="*" element={<Error404Page />} />
         </Routes>
       </Router>
+      <BtnVolver/>                                                            
     </div>
   );
 }
