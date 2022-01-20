@@ -30,6 +30,7 @@
     justify-content: center;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
+    
     border-radius: 0 10px 10px 0;
     border-left: 1px solid;
     border: none;
@@ -37,6 +38,11 @@
     color: rgba(255, 255, 255, 0.664);
     padding: 0px 10px;
     
+    cursor: pointer;
+}
+
+.btn_input_search:hover{
+    background-color: rgba(0, 0, 0, 0.644);
 }
 
 .search_icon {
